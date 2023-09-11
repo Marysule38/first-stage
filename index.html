@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HNG Stage One</title>
+</head>
+<body>
+
+        <!--Profile-->
+        <div class="profile">
+            <img src="profile-pic.jpeg" alt="Mary Annabel Pic" data-testid="slackDisplayPicture">
+
+         <div class="profile-info">
+            <p data-testid="slackUserName">Mary Annabel</p>
+
+            <p data-testid="myTrack">Frontend</p>
+
+            <p data-testid="currentDayOfTheWeek">Monday</p>
+
+            <p data-testid="currentUTCTime"></p>
+                   
+
+            <a href="https://github.com/Marysule38/myfirstproject" class="button" data-testid="githubURL">Github</a> 
+
+         </div>
+        </div>
+
+
+    <script>
+      function displayCurrentUTCTime() {
+
+            const currentTimeInMilliseconds = new Date().getTime();
+
+            const currentUTCTimeElement = document.querySelector('[data-testid=currentUTCTime]');
+
+            //here, we want to set the content of the elelement with our currentUTCTime
+            currentUTCTimeElement.textContent = `${currentTimeInMilliseconds}`;
+        }
+                        // Update the time every second
+              setInterval(displayCurrentUTCTime, 1000);
+           
+        
+        displayCurrentUTCTime();
+    </script>
+</body>
+</html>

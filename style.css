@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+background-color: blueviolet;
+background: cov;
+}
+
+.profile{
+   width: 20%;
+   height: 400px;
+   background-color: aliceblue;
+   margin: 12%;
+   position: absolute;
+   padding-left: 10px;
+   padding-top: 20px;
+   display: inline-block;
+   align-items: center;
+   border-radius: 10px;
+   margin-left: 40%;
+}
+
+img{
+  width:170px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.profile-info{
+display: block;
+padding-left: 70px;
+font-size: 15px;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+
+/*media query*/
+
+
+
+p[data-testid="slackUserName"]{
+padding: 7px;
+}
+
+p[data-testid="currentDayOfTheWeek"]{
+    padding: 7px;
+
+}
+
+
+p[data-testid="myTrack"]{
+    padding: 7px;
+
+}
+
+p[data-testid="currentUTCTime"]{
+    padding: 7px;
+}
+
+
+a[data-testid="githubURL"]{
+    padding: 7px;
+     
+}
+
+
+/*Media Query*/
+
+
+
+/*1080*/
+    @media screen and (max-width:1080px){
+    .profile{
+     width: 23%;
+     height: 400px;
+     background-color: aliceblue;
+     margin: 12%;
+     position: absolute;
+     padding-left: 10px;
+     padding-top: 20px;
+     display: inline-block;
+     align-items: center;
+     border-radius: 10px;
+     margin-left: 60%;
+  }
+  
+  img{
+    width:170px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  
+  .profile-info{
+  display: block;
+  padding-left: 40px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+  }
+  
+  p[data-testid="slackUserName"]{
+  padding: 7px;
+  }
+  
+  p[data-testid="currentDayOfTheWeek"]{
+      padding: 7px;
+  
+  }
+  
+  
+  p[data-testid="myTrack"]{
+      padding: 7px;
+  
+  }
+  
+  p[data-testid="currentUTCTime"]{
+      padding: 7px;
+  }
+  
+  
+  a[data-testid="githubURL"]{
+      padding: 7px;
+       
+  }
+  }
+
+  /*992*/
+  @media screen and  (max-width:992px){
+    .profile{
+     width: 23%;
+     height: 400px;
+     background-color: aliceblue;
+     margin: 12%;
+     position: absolute;
+     padding-left: 10px;
+     padding-top: 20px;
+     display: inline-block;
+     align-items: center;
+     border-radius: 10px;
+     margin-left: 40%;
+  }
+  
+  img{
+    width:170px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  
+  .profile-info{
+  display: block;
+  padding-left: 40px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+  }
+  
+  
+  p[data-testid="slackUserName"]{
+  padding: 7px;
+  }
+  
+  p[data-testid="currentDayOfTheWeek"]{
+      padding: 7px;
+  
+  }
+  
+  
+  p[data-testid="myTrack"]{
+      padding: 7px;
+  
+  }
+  
+  p[data-testid="currentUTCTime"]{
+      padding: 7px;
+  }
+  
+  
+  a[data-testid="githubURL"]{
+      padding: 7px;
+       
+  }
+  }
+
+
+  /*max-width:800*/
+  @media screen and  (max-width:800px){
+    .profile{
+     width: 30%;
+     height: 400px;
+     background-color: aliceblue;
+     margin: 12%;
+     position: absolute;
+     padding-left: 10px;
+     padding-top: 20px;
+     display: inline-block;
+     align-items: center;
+     border-radius: 10px;
+     margin-left: 30%;
+  }
+  
+  img{
+    width:170px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  
+  .profile-info{
+  display: block;
+  padding-left: 40px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+  }
+   
+  
+  p[data-testid="slackUserName"]{
+  padding: 7px;
+  }
+  
+  p[data-testid="currentDayOfTheWeek"]{
+      padding: 7px;
+  
+  }
+  
+  
+  p[data-testid="myTrack"]{
+      padding: 7px;
+  
+  }
+  
+  p[data-testid="currentUTCTime"]{
+      padding: 7px;
+  }
+  
+  
+  a[data-testid="githubURL"]{
+      padding: 7px;
+       
+  }
+  } 
+
+
+  /*max-width:600*/
+  @media screen and (max-width:600px){
+    .profile{
+     width: 37%;
+     height: 400px;
+     background-color: aliceblue;
+     margin: 12%;
+     position: absolute;
+     padding-left: 10px;
+     padding-top: 20px;
+     display: inline-block;
+     align-items: center;
+     border-radius: 10px;
+     margin-left: 30%;
+  }
+  
+  img{
+    width:170px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  
+  .profile-info{
+  display: block;
+  padding-left: 40px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+  }
+  
+  p[data-testid="slackUserName"]{
+  padding: 7px;
+  }
+  
+  p[data-testid="currentDayOfTheWeek"]{
+      padding: 7px;
+  
+  }
+  
+  
+  p[data-testid="myTrack"]{
+      padding: 7px;
+  
+  }
+  
+  p[data-testid="currentUTCTime"]{
+      padding: 7px;
+  }
+  
+  
+  a[data-testid="githubURL"]{
+      padding: 7px;
+       
+  }
+  } 
+
+
+  /*max-width:500*/
+  @media screen and (max-width:500px){
+    .profile{
+     width: 45%;
+     height: 400px;
+     background-color: aliceblue;
+     margin: 12%;
+     position: absolute;
+     padding-left: 10px;
+     padding-top: 20px;
+     display: inline-block;
+     align-items: center;
+     border-radius: 10px;
+     margin-left: 30%;
+  }
+  
+  img{
+    width:170px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  
+  .profile-info{
+  display: block;
+  padding-left: 40px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+  }
+  
+  
+  p[data-testid="slackUserName"]{
+  padding: 7px;
+  }
+  
+  p[data-testid="currentDayOfTheWeek"]{
+      padding: 7px;
+  
+  }
+  
+  
+  p[data-testid="myTrack"]{
+      padding: 7px;
+  
+  }
+  
+  p[data-testid="currentUTCTime"]{
+      padding: 7px;
+  }
+  
+  
+  a[data-testid="githubURL"]{
+      padding: 7px;
+       
+  }
+  } 
+
+
+
+  /*max-width 420*/
+  @media screen and (max-width:420px){
+    .profile{
+     width: 53%;
+     height: 400px;
+     background-color: aliceblue;
+     margin: 12%;
+     position: absolute;
+     padding-left: 10px;
+     padding-top: 20px;
+     display: inline-block;
+     align-items: center;
+     border-radius: 10px;
+     margin-left: 30%;
+  }
+  
+  img{
+    width:170px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  
+  .profile-info{
+  display: block;
+  padding-left: 40px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+  }
+  
+  
+  p[data-testid="slackUserName"]{
+  padding: 7px;
+  }
+  
+  p[data-testid="currentDayOfTheWeek"]{
+      padding: 7px;
+  
+  }
+  
+  
+  p[data-testid="myTrack"]{
+      padding: 7px;
+  
+  }
+  
+  p[data-testid="currentUTCTime"]{
+      padding: 7px;
+  }
+  
+  
+  a[data-testid="githubURL"]{
+      padding: 7px;
+       
+  }
+  } 
+
+
+    /*max-width:320*/
+    @media screen and (max-width:320px){
+        .profile{
+         width: 68%;
+         height: 400px;
+         background-color: aliceblue;
+         margin: 12%;
+         position: absolute;
+         padding-left: 10px;
+         padding-top: 20px;
+         display: inline-block;
+         align-items: center;
+         border-radius: 10px;
+         margin-left: 10%;
+      }
+      
+      img{
+        width:170px;
+        height: 180px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-left: 20px;
+      }
+      
+      .profile-info{
+      display: block;
+      padding-left: 40px;
+      font-size: 15px;
+      margin-top: 20px;
+      margin-left: 10px;
+      }
+      
+      p[data-testid="slackUserName"]{
+      padding: 7px;
+      }
+      
+      p[data-testid="currentDayOfTheWeek"]{
+          padding: 7px;
+      
+      }
+      
+      p[data-testid="myTrack"]{
+          padding: 7px;
+      
+      }
+      
+      p[data-testid="currentUTCTime"]{
+          padding: 7px;
+      }
+      
+      
+      a[data-testid="githubURL"]{
+          padding: 7px;
+           
+      }
+      } 
